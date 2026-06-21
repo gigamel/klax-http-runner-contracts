@@ -1,0 +1,13 @@
+{
+  "name": "klax/http-runner-contracts",
+  "description": "HTTP runner contract based on PSR",
+  "autoload": {
+    "psr-4": {
+      "Klax\\Http\\Runner\\Contract\\": "src/"
+    }
+  },
+  "require": {
+    "psr/http-message": "^2.0",
+    "psr/http-server-handler": "^1.0"
+  }
+}
